@@ -22,4 +22,4 @@ jobs:
           python -m pip install --upgrade pip
           pip install mypy
       - name: Run mypy
-        run: mypy test_basic/ test_intermediate/
+        run: mypy basik/ intermediate/

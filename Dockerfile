@@ -7,4 +7,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-CMD ["mypy", "test_basic/", "test_intermediate/"]
+CMD ["mypy", "basik/", "test_intermediate/"]
